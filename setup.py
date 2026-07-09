@@ -116,7 +116,7 @@ def get_version(*file_paths):
     raise RuntimeError('Unable to find version string.')
 
 
-VERSION = get_version('edx_credentials_themes', '__init__.py')
+VERSION = get_version('rwaq_credentials_themes', '__init__.py')
 
 if sys.argv[-1] == 'tag':
     print("Tagging the version on github:")
@@ -127,15 +127,15 @@ if sys.argv[-1] == 'tag':
 README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 
 setup(
-    name='edx_credentials_themes',
+    name='rwaq_credentials_themes',
     version=VERSION,
-    description='Themes for the edX Credentials Service',
+    description='Themes for the Rwaq Credentials Service',
     long_description=README,
-    author='edX',
-    author_email='oscm@edx.org',
-    url='https://github.com/openedx/credentials-themes',
+    author='Rwaq',
+    author_email='',
+    url='https://github.com/rwaq-org/credentials-themes',
     packages=[
-        'edx_credentials_themes',
+        'rwaq_credentials_themes',
     ],
     include_package_data=True,
     install_requires=load_requirements('requirements/base.in'),
