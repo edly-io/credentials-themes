@@ -6,7 +6,7 @@
 
 NODE_BIN=$(CURDIR)/node_modules/.bin
 
-THEME_NAME := edx_credentials_themes
+THEME_NAME := rwaq_credentials_themes
 
 # Generates a help message. Borrowed from https://github.com/pydanny/cookiecutter-djangopackage.
 help: ## display this help message
@@ -38,9 +38,9 @@ base_requirements:
 
 pull_translations: ## Pull translations via atlas
 	# Remove existing translation directories
-	find edx_credentials_themes/conf/locale -mindepth 1 -maxdepth 1 -type d -exec rm -r {} \;
+	find rwaq_credentials_themes/conf/locale -mindepth 1 -maxdepth 1 -type d -exec rm -r {} \;
 	atlas pull $(ATLAS_OPTIONS) \
-	           translations/credentials-themes/edx_credentials_themes/conf/locale:edx_credentials_themes/conf/locale
+	           translations/credentials-themes/rwaq_credentials_themes/conf/locale:rwaq_credentials_themes/conf/locale
 	make compile_translations
 
 requirements: base_requirements
@@ -67,4 +67,4 @@ upgrade: ## update the requirements/*.txt files with the latest packages satisfy
 	rm requirements/test.txt.tmp
 
 validate_translations: generate_translations detect_changed_source_translations
-	cd edx_credentials_themes && i18n_tool validate
+	cd rwaq_credentials_themes && i18n_tool validate
