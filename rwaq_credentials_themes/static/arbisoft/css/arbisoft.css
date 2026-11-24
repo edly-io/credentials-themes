@@ -4,9 +4,9 @@
 
 /* Generic styles */
 body {
-    color: #333333;
+    color: #252525;
     margin: 0;
-    font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "IBM Plex Sans Arabic", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .banner-user .action.icon-only .action-label, .input-checkbox.replace-checkbox, .input-checkbox.replace-radio, .input-radio.replace-checkbox, .input-radio.replace-radio, .sr-only {
@@ -35,7 +35,7 @@ p {
 }
 
 a {
-    color: #0A76DB;
+    color: #0258ED;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -277,7 +277,7 @@ Custom Certificate Styling
     z-index: 1;
     padding: 30px 30px 20px;
     border-radius: 12px;
-    box-shadow: inset 0 0 0 3px #0A76DB;
+    box-shadow: inset 0 0 0 3px #DD1F25;
     direction: rtl;
 }
 
@@ -297,7 +297,7 @@ Custom Certificate Styling
     left: -80px;
     width: 234px;
     height: 212px;
-    background-color: #E6F1FC;
+    background-color: #F4F4F4;
     border-radius: 100%;
     z-index: -1;
 }
@@ -307,7 +307,7 @@ Custom Certificate Styling
     right: -130px;
     width: 300px;
     height: 300px;
-    background-color: #FDEBDD;
+    background-color: #FEF7EC;
     border-radius: 100%;
     z-index: -1;
 }
@@ -317,7 +317,7 @@ Custom Certificate Styling
     left: -80px;
     width: 234px;
     height: 212px;
-    background-color: #E6F1FC;
+    background-color: #F4F4F4;
     border-radius: 100%;
 }
 
@@ -326,7 +326,7 @@ Custom Certificate Styling
     right: -80px;
     width: 200px;
     height: 200px;
-    background-color: #E6F1FC;
+    background-color: #F4F4F4;
     border-radius: 100%;
 }
 
@@ -402,14 +402,14 @@ Custom Certificate Styling
     font-size: 24px;
     line-height: 24px;
     font-weight: 400;
-    color: #0A76DB;
+    color: #DD1F25;
     margin: 0 auto 20px;
     max-width: 850px;
     font-weight: 600;
 }
 
 .accomplishment-main .accomplishment-statement p.copy-small .link {
-    color: #0A76DB;
+    color: #DD1F25;
     font-weight: 500;
 }
 
@@ -433,7 +433,7 @@ Custom Certificate Styling
     line-height: 50px;
     font-family: "IBM Plex Sans Arabic", sans-serif;
     margin: 0 auto 20px;
-    color: #0A76DB;
+    color: #DD1F25;
     font-weight: 600;
 }
 
@@ -441,7 +441,7 @@ Custom Certificate Styling
     font-size: 24px;
     display: block;
     font-family: "IBM Plex Sans Arabic", sans-serif;
-    color: #0A76DB;
+    color: #DD1F25;
     font-weight: normal;
 }
 
@@ -491,7 +491,7 @@ Custom Certificate Styling
 }
 
 .accomplishment-main .accomplishment-statement .accomplishment-course-name span {
-    color: #0A76DB;
+    color: #DD1F25;
     font-weight: 500;
 }
 
@@ -636,7 +636,7 @@ Custom Certificate Styling
 .verification-area {
     margin:0;
     padding: 20px;
-    border: 1px solid #0A76DB;
+    border: 1px solid #DD1F25;
     border-radius: 12px;
     display: inline-flex;
     text-align: right;
@@ -654,7 +654,7 @@ Custom Certificate Styling
 
 .verification-area .text .copy-small + .copy-small {
     font-size: 14px;
-    color: #0A76DB;
+    color: #DD1F25;
     font-weight: 500;
 }
 
